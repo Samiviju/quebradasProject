@@ -1,11 +1,11 @@
-import { Home } from "./src/screens/Home";
-import TemplateLogin from "./src/screens/Login/templateLogin";
+import { Home } from "./src/screens/components/HomeForm";
+import LoginForm from "./src/screens/components/LoginForm/loginForm";
 
 
 export default function App() {
   return (
     //<Home />
-    <TemplateLogin />
+    <LoginForm />
   );
 }
 
