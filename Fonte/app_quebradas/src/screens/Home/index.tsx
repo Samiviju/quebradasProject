@@ -1,4 +1,4 @@
-import { styles } from "./styles";
+import { stylesHome } from "./stylesHome";
 import { Text, View, TextInput, TouchableOpacity } from "react-native";
 
 export function Home() {
@@ -8,24 +8,24 @@ export function Home() {
   }
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.eventName}>
+    <View style={stylesHome.container}>
+      <Text style={stylesHome.eventName}>
         Quadras
       </Text>
-      <Text style={styles.eventDate}>
+      <Text style={stylesHome.eventDate}>
         Quarta, 7 de Dezembro de 2022.
       </Text>
 
-      <View style={styles.form}>
+      <View style={stylesHome.form}>
         <TextInput
-          style={styles.input}
+          style={stylesHome.input}
           placeholder="Quadra a ser cadastrada"
           placeholderTextColor='#6b6b6b'
           keyboardType="default"
         />
 
-        <TouchableOpacity style={styles.button} onPress={handleParcipantAdd}>
-          <Text style={styles.buttonText}>+</Text>
+        <TouchableOpacity style={stylesHome.button} onPress={handleParcipantAdd}>
+          <Text style={stylesHome.buttonText}>+</Text>
         </TouchableOpacity>
       </View>
     </View>

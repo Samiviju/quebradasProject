@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 
-export const styles = StyleSheet.create({
+export const stylesHome = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#131016',
@@ -50,5 +50,6 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     marginTop: 36,
     marginBottom: 42
+
   }
 });
